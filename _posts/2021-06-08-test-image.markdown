@@ -17,7 +17,7 @@ Pour inclure des fichiers locaux, veuillez inclure le fichier dans le dossier as
 ![Image test]({{site.baseurl}}\plateforme-accueil-contenu\assets\test-image.jpg)
 
 ## Inclure gif
-![Animated image test]({{site.baseurl}}_site\plateforme-accueil-contenu\assets\test-gif.gif)
+![Animated image test]({{site.baseurl}}\plateforme-accueil-contenu\assets\test-gif.gif)
 
 ## Inclure vidéo (depuis lien)
 Copier le lien avec l'option "intégrer" ("embeded" en anglais) fourni par la vidéo youtube/autre service. Insérez le dans un `<div>` avec la class scss "videoWrapper" qui permet à la vidéo d'avoir une taille adaptative gardant les proportions de la vidéo originelle.
