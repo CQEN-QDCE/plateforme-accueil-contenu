@@ -11,13 +11,13 @@ Bien que la manière recommandée d'ajouter des ressources multimédia à un pos
 ## Inclure une image
 Pour inclure des fichiers locaux, veuillez inclure le fichier dans le dossier assets du dépôt du blog et référencez le comme suit:
 {% highlight markdown %}
-![<Titre de la ressource>]({{site.baseurl}}/assets/res_posts/<ficher-à-inclure.jpg>)
+![<Titre de la ressource>]({{site.baseurl}}\plateforme-accueil-contenu\assets\<ficher-à-inclure.jpg>)
 {% endhighlight %}
 
-![Image test]({{site.baseurl}}/assets/res_posts/test-image.jpg)
+![Image test]({{site.baseurl}}\plateforme-accueil-contenu\assets\test-image.jpg)
 
 ## Inclure gif
-![Animated image test]({{site.baseurl}}/assets/res_posts/test-gif.gif)
+![Animated image test]({{site.baseurl}}_site\plateforme-accueil-contenu\assets\test-gif.gif)
 
 ## Inclure vidéo (depuis lien)
 Copier le lien avec l'option "intégrer" ("embeded" en anglais) fourni par la vidéo youtube/autre service. Insérez le dans un `<div>` avec la class scss "videoWrapper" qui permet à la vidéo d'avoir une taille adaptative gardant les proportions de la vidéo originelle.
