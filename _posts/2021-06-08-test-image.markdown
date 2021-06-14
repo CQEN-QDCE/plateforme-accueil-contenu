@@ -11,10 +11,10 @@ Bien que la manière recommandée d'ajouter des ressources multimédia à un pos
 ## Inclure une image
 Pour inclure des fichiers locaux, veuillez inclure le fichier dans le dossier assets du dépôt du blog et référencez le comme suit:
 {% highlight markdown %}
-![<Titre de la ressource>]({{site.baseurl}}\plateforme-accueil-contenu\assets\<ficher-à-inclure.jpg>)
+![<Titre de la ressource>]({{site.baseurl}}\plateforme-accueil-contenu\assets\<ficher-à-inclure.png>)
 {% endhighlight %}
 
-![Image test]({{site.baseurl}}\plateforme-accueil-contenu\assets\test-image.jpg)
+![Image test]({{site.baseurl}}\plateforme-accueil-contenu\assets\test-image.png)
 
 ## Inclure gif
 ![Animated image test]({{site.baseurl}}\plateforme-accueil-contenu\assets\test-gif.gif)
@@ -30,5 +30,5 @@ Code de cette vidéo:
 {% endhighlight %}
 
 <div class="videoWrapper">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/9RHFFeQ2tu4" title="Test vidéo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/KTN_QBuDplo" title="Test Vidéo Présentation Openshift" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
