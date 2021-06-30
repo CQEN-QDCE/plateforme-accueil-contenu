@@ -1,8 +1,6 @@
 ---
-layout: post
 title:  "Écrire un post"
 date:   2021-06-18 08:30:00 -0400
-categories: documentation
 ---
 La plateforme d'accueil supporte la syntaxe markdown de [Github](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax), cette page explique les quelque éléments à inclure dans votre fichier pour assurer son intégration au site de la plateforme d'accueil.
 
@@ -28,10 +26,10 @@ categories: documentation
 ---
 ```
 Explication des attributs:
-- `layout`: Dit à Jekyll quel modèle html votre post utilisera (laissez à "post").
 - `title`: Le titre de votre post.
 - `date`: La date et heure à laquelle vous avez écrit le post
-- `categories`: Dépendemment du post que vous écrivez, cette section peut changer, veuillez référer à la page [Catégories de post]({{site.baseurl}}/plateforme-accueil-contenu/documentation/2021/06/18/categories.html)
+
+> NOTE: si vous mettez une date et heure future, votre post ne s’affichera pas sur le site avant cette date et heure.
 
 # Nom du fichier
 Le nom que vous devez donner au fichier doit respecter le format suivant:
